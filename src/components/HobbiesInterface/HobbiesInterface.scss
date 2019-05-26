@@ -1,0 +1,61 @@
+.hobbies-interface {
+	display: flex;
+	max-width: 100%;
+	background-color: #e3e3e3;
+	padding: .75rem;
+	border: 1px solid #343a40;
+	border-radius: .5rem;
+}
+
+.hobbies-interface button {
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+	margin-left: 1rem;
+}
+
+.hobbies-interface button:hover {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
+.hobbies-interface input {
+	display: block;
+	width: 50%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+}
+
+.hobbies-interface select {
+	display: inline-block;
+	width: 20%;
+	padding: .375rem 1.75rem .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	vertical-align: middle;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	-webkit-appearance: none;
+}
+
+.disabled:disabled {}

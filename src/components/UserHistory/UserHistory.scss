@@ -1,0 +1,28 @@
+.user-history {
+	max-width: 100%;
+	flex: 1;
+	overflow: auto;
+	height: 35rem;
+}
+
+.user-item {
+	background-color: #fff;
+	border: 2px solid #e3e3e3;
+	margin-top: 1em;
+	border-radius: .5rem;
+	padding: 1rem;
+	cursor: default;
+}
+
+.user-item:hover {
+	background: #4e4e4e;
+	color: #e3e3e3;
+}
+
+.user-item-checked {
+	background-color: #e3e3e3;
+	margin-top: 1em;
+	border-radius: .5rem;
+	padding: 1rem;
+	cursor: default;
+}
